@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Fondo cibernético con degradado */
+    background: linear-gradient(135deg, #0c0c0c, #0532e6); /* Degradado verde y azul */
+    color: #fa0519; /* Color del texto para buen contraste con el fondo */
+}
+
+h1 {
+    color: #fa0519; /* Texto blanco para contraste con el fondo degradado */
+    margin-bottom: 20px; /* Espacio inferior */
+    font-size: 2em; /* Tamaño de fuente grande para el título */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #0a0a0a;
+    color: #790c0c;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+    background-color: #ddd;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #f4f4f6; /* Color blanco para el mensaje */
+}
+
+input[type="file"] {
+    margin: 20px 0;
+}
+
+
